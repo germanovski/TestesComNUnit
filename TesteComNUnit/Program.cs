@@ -17,6 +17,7 @@
                 return "Usuário ou senha incorreta.";
             }
         }
+
         public List<Funcionario> TodosOsFuncionarios()
         {
             List<Funcionario> li = new List<Funcionario>();
@@ -64,6 +65,7 @@
             });
             return li;
         }
+
         public List<Funcionario> DetalhesDosFuncionarios(int Id)
         {
             List<Funcionario> li1 = new List<Funcionario>();
@@ -78,6 +80,7 @@
             }
             return li1;
         }
+
         static void Main(string[] args) { }
     }
 }

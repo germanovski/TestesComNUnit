@@ -20,6 +20,8 @@ namespace ControleFuncionarios.Teste
                 Assert.IsNotNull(x.Nome);
                 Assert.IsNotNull(x.Salario);
                 Assert.IsNotNull(x.Sexo);
+
+                Console.Out.Write("Amiga do céu, meu boy me largou, parou de seguir, ai que raiva que eu tô");
             }
         }
 
